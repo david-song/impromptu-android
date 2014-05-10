@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SongSpeech.impromptu"
+    android:versionCode="3"
+    android:versionName="1.15" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/i"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.SongSpeech.impromptu.MainActivity"
+            android:label="Impromptu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.SongSpeech.impromptu.PhraseActivity"
+            android:label="@string/title_activity_phrase"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.SongSpeech.impromptu.WordActivity"
+            android:label="@string/title_activity_word"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.SongSpeech.impromptu.PracticeAlarm"
+            android:label="@string/title_activity_practice_alarm" >
+        </activity>
+        <activity
+            android:name="com.SongSpeech.impromptu.New_alarm"
+            android:label="@string/title_activity_new_alarm" >
+        </activity>
+        <activity
+            android:name="com.SongSpeech.impromptu.SettingsMenu"
+            android:label="@string/title_activity_settings_menu" >
+        </activity>
+    </application>
+
+</manifest>
