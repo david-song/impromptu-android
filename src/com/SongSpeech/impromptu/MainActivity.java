@@ -1,15 +1,14 @@
 package com.SongSpeech.impromptu;
 
-import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
@@ -29,9 +28,11 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
+				if (checkSettings()) {
+					Intent i = new Intent(MainActivity.this, WordActivity.class);
+					startActivity(i);
+				}
 				
-				Intent i = new Intent(MainActivity.this, WordActivity.class);
-				startActivity(i);
 			}
 		});
 		bPhrases.setOnClickListener(new View.OnClickListener() {
@@ -39,8 +40,11 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO LockOrientation
+				if (checkSettings()) {
 				Intent i = new Intent(MainActivity.this, PhraseActivity.class);
-				startActivity(i);
+					startActivity(i);
+				}
+
 			}
 		});
 	}
@@ -71,19 +75,18 @@ public class MainActivity extends Activity {
 		
 	}
 
-	private void checkSettings()
+	private boolean checkSettings()
 	{
 		SharedPreferences sharedPref = PreferenceManager
 				.getDefaultSharedPreferences(this);
-		int wordnum = Integer.parseInt(sharedPref.getString("wordnumkey", ""));
-		int phrasenum = Integer.parseInt(sharedPref.getString("phrasenumkey", ""));
-		if(sharedPref.getString("wordnumkey", "") == "")
+		if(sharedPref.getString("wordnumkey", "") == "" || sharedPref.getString("phrasenumkey", "") == "")
 		{
-			sharedPref.edit().putString("wordnumkey", "3");
-		}
-		if(sharedPref.getString("phrasenumkey", "") == "")
-		{
-			sharedPref.edit().putString("phrasenumkey", "3");
+			Toast.makeText(this,
+					"Please set Phrase and Word Amount in Settings",
+					Toast.LENGTH_LONG).show();
+			return false;
+		} else {
+			return true;
 		}
 	}
 	
