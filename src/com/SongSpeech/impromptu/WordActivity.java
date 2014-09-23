@@ -1,19 +1,20 @@
 package com.SongSpeech.impromptu;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.app.TaskStackBuilder;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
+import android.media.RingtoneManager;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.preference.PreferenceManager;
+import android.support.v4.app.NotificationCompat;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -24,8 +25,14 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+
 public class WordActivity extends Activity {
-	private ArrayList<String> wordarray;
 	AssetManager am;
 	int wordnum = 0;
 	BufferedReader dict = null;
@@ -38,6 +45,7 @@ public class WordActivity extends Activity {
 	CountDownTimer count;
 	int wordtime;
 	Button refresh;
+    private ArrayList<String> wordarray;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -76,8 +84,26 @@ public class WordActivity extends Activity {
 			public void onFinish() {
 				// TODO Auto-generated method stub
 				alertDialog.setMessage("Time is up!");
-			}
-		};
+
+                // Create notification
+                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(
+                        getApplicationContext())
+                        .setContentTitle("Time is up!")
+                        .setSound(
+                                RingtoneManager
+                                        .getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+                        );
+                Intent resultIntent = new Intent(getApplicationContext(), WordActivity.class);
+                TaskStackBuilder stackBuilder = TaskStackBuilder.create(getApplicationContext());
+                stackBuilder.addParentStack(WordActivity.class);
+                stackBuilder.addNextIntent(resultIntent);
+                PendingIntent pendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
+                mBuilder.setContentIntent(pendingIntent);
+                NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+
+                mNotificationManager.notify(0, mBuilder.build());
+            }
+        };
 
 		list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
@@ -130,8 +156,10 @@ public class WordActivity extends Activity {
 	private void createDictionary() {
 		try {
 			dict = new BufferedReader(
-					new InputStreamReader(am.open("web2.txt")));
-			String word;
+                    new InputStreamReader(
+                            am.open("words.txt"))
+            );
+            String word;
 
 			while ((word = dict.readLine()) != null) {
 				wordarray.add(word);

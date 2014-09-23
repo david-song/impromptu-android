@@ -8,9 +8,7 @@ import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -21,8 +19,10 @@ public class MainActivity extends Activity {
 		this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_main);
 		checkSettings();
-		Button bWords = (Button) findViewById(R.id.words);
-		Button bPhrases = (Button) findViewById(R.id.phrases);
+
+
+		/*Button bWords = (Button) findViewById(R.id.words);
+        Button bPhrases = (Button) findViewById(R.id.phrases);
 		
 		bWords.setOnClickListener(new View.OnClickListener() {
 			
@@ -46,9 +46,10 @@ public class MainActivity extends Activity {
 				}
 
 			}
-		});
-	}
-	@Override
+		});*/
+    }
+
+    @Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
 		MenuInflater inflater = getMenuInflater();

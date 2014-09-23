@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.SongSpeech.impromptu"
-    android:versionCode="4"
-    android:versionName="1.2" >
-
+    android:versionCode="6"
+    android:versionName="1.3" >
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="18" />
@@ -32,14 +33,6 @@
             android:name="com.SongSpeech.impromptu.WordActivity"
             android:label="@string/title_activity_word"
             android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.SongSpeech.impromptu.PracticeAlarm"
-            android:label="@string/title_activity_practice_alarm" >
-        </activity>
-        <activity
-            android:name="com.SongSpeech.impromptu.New_alarm"
-            android:label="@string/title_activity_new_alarm" >
         </activity>
         <activity
             android:name="com.SongSpeech.impromptu.SettingsMenu"
