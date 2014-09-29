@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/david/workspace/Impromptu/build/intermediates/pre-dexed/debug/unirest-java-1.3.20-c23423be97354367d53e0fdb040bcccf40983b0d.jar"
+        jar="/home/david/.gradle/caches/modules-2/files-2.1/com.mashape.unirest/unirest-java/1.3.20/995782e691945fead3d65d2e3703315c7c2e48e6/unirest-java-1.3.20.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="995782e691945fead3d65d2e3703315c7c2e48e6"/>
+    <item
+        dex="/home/david/workspace/Impromptu/build/intermediates/pre-dexed/debug/httpmime-4.3.4-fddc2c0554cd6ef9d8794bdac7a25af87dcfa01a.jar"
+        jar="/home/david/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.4/54ffde537682aea984c22fbcf0106f21397c5f9b/httpmime-4.3.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="54ffde537682aea984c22fbcf0106f21397c5f9b"/>
+    <item
+        dex="/home/david/workspace/Impromptu/build/intermediates/pre-dexed/debug/httpcore-nio-4.3.2-da8906938169b2107ec07b45aac035b7057f1f39.jar"
+        jar="/home/david/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore-nio/4.3.2/4038f9f6c7ab8e3fc03ad11772e44f751822e648/httpcore-nio-4.3.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4038f9f6c7ab8e3fc03ad11772e44f751822e648"/>
+    <item
+        dex="/home/david/workspace/Impromptu/build/intermediates/pre-dexed/debug/android-support-v4-eac86f866d39f7b32c7303d6b65e7bb5304b5094.jar"
+        jar="/home/david/workspace/Impromptu/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4"/>
+    <item
+        dex="/home/david/workspace/Impromptu/build/intermediates/pre-dexed/debug/jackson-annotations-2.3.0-4c58bf3c10d8c442f87718e278304c1e09da03e0.jar"
+        jar="/home/david/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.0/f5e853a20b60758922453d56f9ae1e64af5cb3da/jackson-annotations-2.3.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da"/>
+    <item
+        dex="/home/david/workspace/Impromptu/build/intermediates/pre-dexed/debug/httpcore-4.3.2-c43424f7eef5ebb52e10696602b73666771024d6.jar"
+        jar="/home/david/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e"/>
+    <item
+        dex="/home/david/workspace/Impromptu/build/intermediates/pre-dexed/debug/jackson-core-2.3.3-a713db7bf25ea370114b3a01b1ad66aca3faef50.jar"
+        jar="/home/david/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.3/7d8c5d79cc99995e21e6f955857312d8409f02a1/jackson-core-2.3.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7d8c5d79cc99995e21e6f955857312d8409f02a1"/>
+    <item
+        dex="/home/david/workspace/Impromptu/build/intermediates/pre-dexed/debug/jackson-databind-2.3.3-60b0dcbc33b1ad99304595ba23db56eb9725e332.jar"
+        jar="/home/david/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.3/63b77400b5f1cf83a81823562c48d3120ef5518e/jackson-databind-2.3.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="63b77400b5f1cf83a81823562c48d3120ef5518e"/>
+    <item
+        dex="/home/david/workspace/Impromptu/build/intermediates/pre-dexed/debug/httpasyncclient-4.0.1-dc7248ee3440ff9fa1204647343011f3dbf1eb7b.jar"
+        jar="/home/david/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.0.1/4e50fe1ee01dcffef18b29c9568e046ce96e5137/httpasyncclient-4.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4e50fe1ee01dcffef18b29c9568e046ce96e5137"/>
+
+</pre-dex-items>

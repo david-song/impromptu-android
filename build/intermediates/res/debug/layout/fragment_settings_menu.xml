@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+
+    <ListPreference 
+        android:key="phrasenumkey"
+        android:title="@string/settings_phrasenum"
+        android:summary="@string/settings_phrasesum"
+        android:defaultValue="3"
+        android:entries="@array/phrasenum"
+        android:entryValues="@array/phrasenum"/>
+    <ListPreference
+        android:key="phrasetime"
+        android:title="@string/settings_phrasetime"
+        android:summary="@string/settings_phrasetimesum"
+        android:defaultValue="3"
+        android:entries="@array/phrasetime"
+        android:entryValues="@array/phrasetime"
+        />
+    <ListPreference
+        android:key="wordnumkey"
+        android:title="@string/settings_wordnum"
+        android:summary="@string/settings_wordsum"
+        android:defaultValue="3"
+        android:entries="@array/wordnum"
+        android:entryValues="@array/wordnum"/>
+    <ListPreference
+        android:key="wordtime"
+        android:title="@string/settings_wordtime"
+        android:summary="@string/settings_wordtimesum"
+        android:defaultValue="3"
+        android:entries="@array/wordtime"
+        android:entryValues="@array/wordtime"
+        />
+    <Preference android:title="@string/settings_website">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="http://www.google.com"/>
+    </Preference>
+</PreferenceScreen><!-- From: file:/home/david/workspace/Impromptu/res/layout/fragment_settings_menu.xml -->

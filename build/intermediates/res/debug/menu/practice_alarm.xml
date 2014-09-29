@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.SongSpeech.impromptu.PracticeAlarm" >
+
+    <item 
+        android:id="@+id/alarm_setting_new"
+        android:title="@string/alarm_setting_new"/>
+
+</menu>
+<!-- From: file:/home/david/workspace/Impromptu/res/menu/practice_alarm.xml -->

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/david/workspace/Impromptu/res/values/arrays.xml -->
+    <eat-comment />
+
+    <string-array name="phrasenum">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+    </string-array>
+    <string-array name="phrasetime">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="4">5</item>
+    </string-array>
+    <string-array name="wordnum">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+    </string-array>
+    <string-array name="wordtime">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="4">5</item>
+    </string-array>
+    <!-- From: file:/home/david/workspace/Impromptu/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/david/workspace/Impromptu/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_alarm">Practice Alarm</string>
+    <string name="action_settings">Settings</string>
+    <string name="alarm_analog_clock_time">Alarm is at x:xx</string>
+    <string name="alarm_create_new_alarm_button">Create New Alarm</string>
+    <string name="alarm_delete_alarm">Delete Alarm</string>
+    <string name="alarm_friday">Fri</string>
+    <string name="alarm_monday">Mon</string>
+    <string name="alarm_saturday">Satur</string>
+    <string name="alarm_setting_new">New Alarm</string>
+    <string name="alarm_submit">Create New Alarm</string>
+    <string name="alarm_sunday">Sun</string>
+    <string name="alarm_text_recursive">Recurring Alarm?</string>
+    <string name="alarm_thursday">Thurs</string>
+    <string name="alarm_tuesday">Tues</string>
+    <string name="alarm_tutorial">The alarm has not been created yet.</string>
+    <string name="alarm_wednesday">Wed</string>
+    <string name="app_name">Impromptu</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="phrases">Phrases</string>
+    <string name="phrasescramble">Phrase Scramble</string>
+    <string name="settings_phrasenum">Number of Phrases</string>
+    <string name="settings_phrasesum">The amount of phrases that appear</string>
+    <string name="settings_phrasetime">Phrase Speech Time</string>
+    <string name="settings_phrasetimesum">The duration of impromptu speech for the phrases in minutes.</string>
+    <string name="settings_website">Check out our website!</string>
+    <string name="settings_wordnum">Number of Words</string>
+    <string name="settings_wordsum">The amount of words that appear</string>
+    <string name="settings_wordtime">Word Speech Time</string>
+    <string name="settings_wordtimesum">The duration of impromptu speech for the words in minutes.</string>
+    <string name="title">Impromptu</string>
+    <string name="title_activity_new_alarm">New_alarm</string>
+    <string name="title_activity_phrase">PhraseActivity</string>
+    <string name="title_activity_practice_alarm">PracticeAlarm</string>
+    <string name="title_activity_settings_menu">SettingsMenu</string>
+    <string name="title_activity_word">WordActivity</string>
+    <string name="words">Words</string>
+    <string name="wordscramble">Shuffle Words</string>
+    <!-- From: file:/home/david/workspace/Impromptu/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

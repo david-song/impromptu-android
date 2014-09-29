@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/david/workspace/Impromptu/res" >
+            <file
+                name="fragment_settings_menu"
+                path="/home/david/workspace/Impromptu/res/layout/fragment_settings_menu.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/home/david/workspace/Impromptu/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="phraseactivity"
+                path="/home/david/workspace/Impromptu/res/layout/phraseactivity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_new_alarm"
+                path="/home/david/workspace/Impromptu/res/layout/activity_new_alarm.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_settings_menu"
+                path="/home/david/workspace/Impromptu/res/layout/activity_settings_menu.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="settings_listview_item"
+                path="/home/david/workspace/Impromptu/res/layout/settings_listview_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_word"
+                path="/home/david/workspace/Impromptu/res/layout/activity_word.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/home/david/workspace/Impromptu/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                name="i"
+                path="/home/david/workspace/Impromptu/res/drawable-hdpi/i.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="_i"
+                path="/home/david/workspace/Impromptu/res/drawable-hdpi/_i.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/david/workspace/Impromptu/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/david/workspace/Impromptu/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="i"
+                path="/home/david/workspace/Impromptu/res/drawable-xhdpi/i.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="_i"
+                path="/home/david/workspace/Impromptu/res/drawable-xhdpi/_i.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/david/workspace/Impromptu/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/david/workspace/Impromptu/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                path="/home/david/workspace/Impromptu/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="i"
+                path="/home/david/workspace/Impromptu/res/drawable-mdpi/i.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="_i"
+                path="/home/david/workspace/Impromptu/res/drawable-mdpi/_i.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/david/workspace/Impromptu/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/david/workspace/Impromptu/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/david/workspace/Impromptu/res/values/arrays.xml"
+                qualifiers="" >
+                <string-array name="phrasetime" >
+                    <item name="1">
+1
+                    </item>
+                    <item name="2">
+2
+                    </item>
+                    <item name="3">
+3
+                    </item>
+                    <item name="4">
+4
+                    </item>
+                    <item name="4">
+5
+                    </item>
+                </string-array>
+                <string-array name="wordtime" >
+                    <item name="1">
+1
+                    </item>
+                    <item name="2">
+2
+                    </item>
+                    <item name="3">
+3
+                    </item>
+                    <item name="4">
+4
+                    </item>
+                    <item name="4">
+5
+                    </item>
+                </string-array>
+                <string-array name="phrasenum" >
+                    <item name="1">
+1
+                    </item>
+                    <item name="2">
+2
+                    </item>
+                    <item name="3">
+3
+                    </item>
+                    <item name="4">
+4
+                    </item>
+                </string-array>
+                <string-array name="wordnum" >
+                    <item name="1">
+1
+                    </item>
+                    <item name="2">
+2
+                    </item>
+                    <item name="3">
+3
+                    </item>
+                    <item name="4">
+4
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/home/david/workspace/Impromptu/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/home/david/workspace/Impromptu/res/values/strings.xml"
+                qualifiers="" >
+                <string name="phrasescramble" >Phrase Scramble
+                </string>
+                <string name="alarm_wednesday" >Wed
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="alarm_tuesday" >Tues
+                </string>
+                <string name="title_activity_new_alarm" >New_alarm
+                </string>
+                <string name="phrases" >Phrases
+                </string>
+                <string name="settings_wordnum" >Number of Words
+                </string>
+                <string name="settings_wordtime" >Word Speech Time
+                </string>
+                <string name="alarm_sunday" >Sun
+                </string>
+                <string name="alarm_saturday" >Satur
+                </string>
+                <string name="settings_phrasenum" >Number of Phrases
+                </string>
+                <string name="alarm_text_recursive" >Recurring Alarm?
+                </string>
+                <string name="alarm_monday" >Mon
+                </string>
+                <string name="settings_phrasetimesum" >The duration of impromptu speech for the phrases in minutes.
+                </string>
+                <string name="alarm_thursday" >Thurs
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="title_activity_practice_alarm" >PracticeAlarm
+                </string>
+                <string name="alarm_friday" >Fri
+                </string>
+                <string name="button_refresh" >Refresh
+                </string>
+                <string name="alarm_submit" >Create New Alarm
+                </string>
+                <string name="action_alarm" >Practice Alarm
+                </string>
+                <string name="words" >Words
+                </string>
+                <string name="settings_website" >Check out our website!
+                </string>
+                <string name="alarm_analog_clock_time" >Alarm is at x:xx
+                </string>
+                <string name="alarm_setting_new" >New Alarm
+                </string>
+                <string name="settings_wordsum" >The amount of words that appear
+                </string>
+                <string name="settings_wordtimesum" >The duration of impromptu speech for the words in minutes.
+                </string>
+                <string name="title_activity_settings_menu" >SettingsMenu
+                </string>
+                <string name="alarm_delete_alarm" >Delete Alarm
+                </string>
+                <string name="title_activity_phrase" >PhraseActivity
+                </string>
+                <string name="settings_phrasesum" >The amount of phrases that appear
+                </string>
+                <string name="title" >Impromptu
+                </string>
+                <string name="app_name" >Impromptu
+                </string>
+                <string name="wordscramble" >Shuffle Words
+                </string>
+                <string name="settings_phrasetime" >Phrase Speech Time
+                </string>
+                <string name="alarm_create_new_alarm_button" >Create New Alarm
+                </string>
+                <string name="alarm_tutorial" >The alarm has not been created yet.
+                </string>
+                <string name="title_activity_word" >WordActivity
+                </string>
+            </file>
+            <file
+                name="i"
+                path="/home/david/workspace/Impromptu/res/drawable-xxhdpi/i.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="_i"
+                path="/home/david/workspace/Impromptu/res/drawable-xxhdpi/_i.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/david/workspace/Impromptu/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="new_alarm"
+                path="/home/david/workspace/Impromptu/res/menu/new_alarm.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="settings_menu"
+                path="/home/david/workspace/Impromptu/res/menu/settings_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="practice_alarm"
+                path="/home/david/workspace/Impromptu/res/menu/practice_alarm.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="phrase"
+                path="/home/david/workspace/Impromptu/res/menu/phrase.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/home/david/workspace/Impromptu/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="word"
+                path="/home/david/workspace/Impromptu/res/menu/word.xml"
+                qualifiers=""
+                type="menu" />
+        </source>
+        <source path="/home/david/workspace/Impromptu/build/generated/res/rs/debug" />
+        <source path="/home/david/workspace/Impromptu/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/david/workspace/Impromptu/build-types/debug/res" />
+    </dataSet>
+
+</merger>
